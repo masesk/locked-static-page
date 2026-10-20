@@ -1,0 +1,14 @@
+# 1. Ignore everything by default
+*
+
+# 2. Prevent Git from ignoring folders (so it can look inside them for your files)
+!*/
+
+# 3. Allow list the specific files you want to include
+!.gitignore
+!README.md
+!index.html
+!sw.js
+
+# 4. Alternatively, allow list specific file types across the whole project
+!site-*.enc
